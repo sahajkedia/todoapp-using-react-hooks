@@ -17,10 +17,10 @@ export default function App() {
   };
   return (
     <div className="App">
-      <h1>My todo App! </h1>
+      <h1>My Todo App! </h1>
       
       <FormControl>
-<InputLabel>Write a todo</InputLabel>
+<InputLabel>Write a work to do</InputLabel>
         <Input value={input} onChange={(e) => setInput(e.target.value)} />
         <br />
         <Button
